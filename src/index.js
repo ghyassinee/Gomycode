@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Calcul from './Calcul.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Calcul />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
